@@ -15,7 +15,7 @@ export default function Home() {
   const [bgName, setBgName] = useState(null);
   
   const [engines, setEngines] = useState([]);
-  const [currentEngine, setCurrentEngine] = useState({ name: '百度', url: 'https://www.baidu.com/s?wd=' });
+  const [currentEngine, setCurrentEngine] = useState({ name: 'Bing', url: 'https://www.bing.com/search?q=' });
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   
   const [startLoadVideo, setStartLoadVideo] = useState(false);
@@ -342,7 +342,7 @@ export default function Home() {
       {/* 底部版权信息 */}
       <div className="absolute bottom-2 w-full text-center z-40">
         <p className="text-[10px] sm:text-xs text-white/40 font-light tracking-wider select-none">
-          Copyright © {year} KayalaDream All Rights Reserved
+          TFBOYS © {year} Never leave or forsake 
         </p>
       </div>
     </main>
