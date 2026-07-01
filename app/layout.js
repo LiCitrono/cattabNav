@@ -1,7 +1,7 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'XXXX CloudNav',
+  title: 'TFBOYS YYDS',
 };
 
 export default function RootLayout({ children }) {
